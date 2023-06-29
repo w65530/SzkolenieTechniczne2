@@ -1,0 +1,12 @@
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\Kolokwium2Storage.csproj.AssemblyReference.cache
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\Kolokwium2Storage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\Kolokwium2Storage.AssemblyInfoInputs.cache
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\Kolokwium2Storage.AssemblyInfo.cs
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\Kolokwium2Storage.csproj.CoreCompileInputs.cache
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\bin\Debug\net6.0\Kolokwium2Storage.deps.json
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\bin\Debug\net6.0\Kolokwium2Storage.dll
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\bin\Debug\net6.0\Kolokwium2Storage.pdb
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\Kolokwium2Storage.dll
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\refint\Kolokwium2Storage.dll
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\Kolokwium2Storage.pdb
+C:\Users\Xapixowy\Visual Studio Projects\@kolos\Inny2_na_5.0\Kolokwium2Service\obj\Debug\net6.0\ref\Kolokwium2Storage.dll

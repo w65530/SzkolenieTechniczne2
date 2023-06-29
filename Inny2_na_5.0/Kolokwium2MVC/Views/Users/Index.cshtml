@@ -1,0 +1,59 @@
+﻿@using Kolokwium2Storage.Dtos;
+@model IEnumerable<UsersDto>
+@{
+    ViewData["Title"] = "Users";
+}
+@if (Model.Any())
+{
+    <table class="table">
+        <thead class="tab-pane">
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>isAdult</th>
+                <th>guardianName</th>
+                <th>guardianPhone</th>
+                <th>toTrip</th>
+                <th>fromTrip</th>
+                <th>TypeOfTrip</th>
+                <th>
+                    <p>
+                        <a class="btn btn-outline-primary" asp-action="Create">Add user</a>
+                    </p>
+                </th>
+            </tr>
+        </thead>
+        <tbody class="tab-content">
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.FirstName</td>
+                    <td>@user.LastName</td>
+                    <td>@user.Phone</td>
+                    <td>@user.Address</td>
+                    <td>@user.isAdult</td>
+                    <td>@user.guardianName</td>
+                    <td>@user.guardianPhone</td>
+                    <td>@user.toTrip</td>
+                    <td>@user.fromTrip</td>
+                    <td>@user.TypeOfTrip</td>
+                    <td>
+                        <form method="post" asp-action="Delete" asp-route-id="@user.Id">
+                            <button type="submit" class="btn btn-outline-danger">Usuń</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No users</p>
+    <p>
+        <a class="btn btn-outline-primary" asp-action="Create">Add user</a>
+    </p>
+}
+

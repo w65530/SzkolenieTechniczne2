@@ -1,0 +1,76 @@
+﻿@model AddUserModel;
+@{
+    ViewData["Title"] = "Add user";
+}
+<h2>Add user</h2>
+<form method="post" asp-action="Create">
+    <div class="form-group">
+        <label for="FirstName" asp-for="FirstName">FirstName</label>
+        <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="FirstName" asp-for="FirstName">
+        <span class="text-danger" asp-validation-for="FirstName"></span>
+    </div>
+    <div class="form-group">
+        <label for="LastName" asp-for="LastName">LastName</label>
+        <input type="text" class="form-control" id="LastName" name="LastName" placeholder="LastName" asp-for="LastName">
+        <span class="text-danger" asp-validation-for="LastName"></span>
+    </div>
+    <div class="form-group">
+            <label for="Phone" asp-for="Phone">Phone</label>
+            <input type="text" class="form-control" id="Phone" name="Phone" placeholder="Phone" asp-for="Phone">
+            <span class="text-danger" asp-validation-for="Phone"></span>
+    </div>
+    <div class="form-group">
+            <label for="Address" asp-for="Address">Address</label>
+            <input type="text" class="form-control" id="Address" name="Address" placeholder="Address" asp-for="Address">
+            <span class="text-danger" asp-validation-for="Address"></span>
+    </div>
+    <div class="form-group">
+        <label for="RoomId">TypeOfTrip</label>
+        <select class="form-control" id="TypeOfTrip" name="TypeOfTrip" asp-for="TypeOfTrip" asp-items="Model.TypeOfTrips">
+            <option value="">Choose type</option>
+        </select>
+    </div>
+    <div class="form-check">
+            <label for="isAdult" asp-for="isAdult">isAdult</label>
+            <input type="checkbox" class="form-check-input" id="isAdult" name="isAdult" placeholder="isAdult" asp-for="isAdult">
+            <span class="text-danger" asp-validation-for="isAdult"></span>
+    </div>
+    @if(!Model.isAdult)
+    {
+        <div class="form-group">
+            <label for="guardianName" asp-for="guardianName">guardianName</label>
+            <input type="text" class="form-control" id="guardianName" name="guardianName" placeholder="guardianName" asp-for="guardianName">
+            <span class="text-danger" asp-validation-for="guardianName"></span>
+        </div>
+        <div class="form-group">
+            <label for="guardianPhone" asp-for="guardianPhone">guardianPhone</label>
+            <input type="text" class="form-control" id="guardianPhone" name="guardianPhone" placeholder="guardianPhone" asp-for="guardianPhone">
+            <span class="text-danger" asp-validation-for="guardianPhone"></span>
+        </div>
+    }
+    <div class="form-group">
+        <label for="toTrip" asp-for="toTrip">toTrip</label>
+        <input type="date" class="form-control" id="toTrip" name="toTrip" placeholder="toTrip" asp-for="toTrip">
+        <span class="text-danger" asp-validation-for="toTrip"></span>
+    </div>
+    <div class="form-group">
+        <label for="fromTrip" asp-for="fromTrip">fromTrip</label>
+        <input type="date" class="form-control" id="fromTrip" name="fromTrip" placeholder="fromTrip" asp-for="fromTrip">
+        <span class="text-danger" asp-validation-for="fromTrip"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+
+<script>
+    // if checkbox is checked, hide guardianName and guardianPhone in vanilla JavaScript
+document.getElementById("isAdult").addEventListener("click", function () {
+        if (document.getElementById("isAdult").checked) {
+            document.getElementById("guardianName").style.display = "none";
+            document.getElementById("guardianPhone").style.display = "none";
+        } else {
+            document.getElementById("guardianName").style.display = "block";
+            document.getElementById("guardianPhone").style.display = "block";
+        }
+    });
+
+</script>
