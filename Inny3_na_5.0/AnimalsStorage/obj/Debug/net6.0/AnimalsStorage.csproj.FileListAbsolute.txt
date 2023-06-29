@@ -1,0 +1,12 @@
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\bin\Debug\net6.0\AnimalsStorage.deps.json
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\bin\Debug\net6.0\AnimalsStorage.dll
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\bin\Debug\net6.0\AnimalsStorage.pdb
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\AnimalsStorage.csproj.AssemblyReference.cache
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\AnimalsStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\AnimalsStorage.AssemblyInfoInputs.cache
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\AnimalsStorage.AssemblyInfo.cs
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\AnimalsStorage.csproj.CoreCompileInputs.cache
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\AnimalsStorage.dll
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\refint\AnimalsStorage.dll
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\AnimalsStorage.pdb
+C:\Users\Xapixowy\Visual Studio Projects\@kolokwium\AnimalsStorage\obj\Debug\net6.0\ref\AnimalsStorage.dll

@@ -1,0 +1,58 @@
+﻿@using AnimalsStorage.Dtos;
+@model IEnumerable<AnimalsDto>
+@{
+    ViewData["Title"] = "Animals";
+}
+@if (Model.Any())
+{
+    <table class="table">
+        <thead class="tab-pane">
+            <tr>
+            <th>CageName</th>
+            <th>AnimalName</th>
+            <th>Guardian</th>
+            <th>NumberOfAnimals</th>
+            <th>VetDate</th>
+            <th>AnimalType</th>
+            <th>ChildrenInCage</th>
+            <th>NumberOfChildren</th>
+            <th>ChildrenAge</th>
+<th></th>
+                <th>
+                    <p>
+                        <a class="btn btn-outline-primary" asp-action="Create">Add animal</a>
+                    </p>
+                </th>
+            </tr>
+        </thead>
+        <tbody class="tab-content">
+            @foreach (var animal in Model)
+            {
+                <tr>
+                    <td>@animal.CageName</td>
+                    <td>@animal.AnimalName</td>
+                    <td>@animal.Guardian</td>
+                    <td>@animal.NumberOfAnimals</td>
+                    <td>@animal.VetDate</td>
+                    <td>@animal.AnimalTypeName</td>
+                    <td>@animal.ChildrenInCage</td>
+                    <td>@animal.NumberOfChildren</td>
+                    <td>@animal.ChildrenAge</td>
+                    <td>
+                        <form method="post" asp-action="Delete" asp-route-id="@animal.Id">
+                            <button type="submit" class="btn btn-outline-danger">Usuń</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No animals!</p>
+    <p>
+        <a class="btn btn-outline-primary" asp-action="Create">Add animal</a>
+    </p>
+}
+

@@ -1,0 +1,72 @@
+﻿@model AddAnimalModel;
+@{
+    ViewData["Title"] = "Add animal";
+}
+<h2>Add animal</h2>
+<form method="post" asp-action="Create">
+    <div class="form-group">
+            <label for="CageName" asp-for="CageName">CageName</label>
+            <input type="text" class="form-control" id="CageName" name="CageName" placeholder="CageName" asp-for="CageName">
+            <span class="text-danger" asp-validation-for="CageName"></span>
+    </div>
+    <div class="form-group">
+                <label for="AnimalName" asp-for="AnimalName">AnimalName</label>
+                <input type="text" class="form-control" id="AnimalName" name="AnimalName" placeholder="AnimalName" asp-for="AnimalName">
+                <span class="text-danger" asp-validation-for="AnimalName"></span>
+    </div>
+    <div class="form-group">
+                <label for="Guardian" asp-for="Guardian">Guardian</label>
+                <input type="text" class="form-control" id="Guardian" name="Guardian" placeholder="Guardian" asp-for="Guardian">
+                <span class="text-danger" asp-validation-for="Guardian"></span>
+    </div>
+    <div class="form-group">
+                <label for="NumberOfAnimals" asp-for="NumberOfAnimals">NumberOfAnimals</label>
+                <input type="number" class="form-control" id="NumberOfAnimals" name="NumberOfAnimals" placeholder="NumberOfAnimals" asp-for="NumberOfAnimals">
+                <span class="text-danger" asp-validation-for="NumberOfAnimals"></span>
+    </div>
+    <div class="form-group">
+                <label for="VetDate" asp-for="VetDate">VetDate</label>
+                <input type="date" class="form-control" id="VetDate" name="VetDate" placeholder="VetDate" asp-for="VetDate">
+                <span class="text-danger" asp-validation-for="VetDate"></span>
+    </div>
+    <div class="form-group">
+        <label for="AnimalTypeId">AnimalType</label>
+        <select class="form-control" id="AnimalTypeId" name="AnimalTypeId" asp-for="AnimalTypeId" asp-items="Model.AnimalTypes">
+            <option value="">Choose type</option>
+        </select>
+    </div>
+    <div class="form-check">
+        <label for="ChildrenInCage" asp-for="ChildrenInCage">ChildrenInCage</label>
+        <input type="checkbox" class="form-check-input" id="ChildrenInCage" name="ChildrenInCage" asp-for="ChildrenInCage">
+        <span class="text-danger" asp-validation-for="ChildrenInCage"></span>
+    </div>
+    <div style="display:none" id="NumberOfChildrenGroup" class="form-group">
+        <label for="NumberOfChildren" asp-for="NumberOfChildren">NumberOfChildren</label>
+        <input type="number" class="form-control" id="NumberOfChildren" name="NumberOfChildren" placeholder="NumberOfChildren" asp-for="NumberOfChildren">
+        <span class="text-danger" asp-validation-for="NumberOfChildren"></span>
+    </div>
+    <div style ="display:none" id="ChildrenAgeGroup" class="form-group">
+        <label for="ChildrenAge" asp-for="ChildrenAge">ChildrenAge</label>
+        <input type="number" class="form-control" id="ChildrenAge" name="ChildrenAge" placeholder="ChildrenAge" asp-for="ChildrenAge">
+        <span class="text-danger" asp-validation-for="ChildrenAge"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+
+<script>
+    // if checkbox is checked, hide guardianName and guardianPhone in vanilla JavaScript
+    const checkbox = document.getElementById("ChildrenInCage");
+    checkbox.addEventListener("click", function () {
+        const numberOfChildrenGroup = document.getElementById("NumberOfChildrenGroup");
+        const childrenAgeGroup = document.getElementById("ChildrenAgeGroup");
+        console.log(checkbox, numberOfChildrenGroup, childrenAgeGroup);
+        if (!checkbox.checked) {
+            numberOfChildrenGroup.style.display = "none";
+            childrenAgeGroup.style.display = "none";
+        } else {
+            numberOfChildrenGroup.style.display = "block";
+            childrenAgeGroup.style.display = "block";
+        }
+    });
+
+</script>
