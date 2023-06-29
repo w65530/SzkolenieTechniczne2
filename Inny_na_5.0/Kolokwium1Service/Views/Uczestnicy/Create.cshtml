@@ -1,0 +1,29 @@
+﻿@model UczestnicyAddModel;
+@{
+    ViewData["Title"] = "Dodaj uczestnika";
+}
+<h2>Dodaj rezerwację</h2>
+<form method="post" asp-action="Create">
+    <div class="form-group">
+        <label for="Imie" asp-for="Imie">Imię</label>
+        <input type="text" class="form-control" id="Imie" name="Imie" placeholder="Imię" asp-for="Imie">
+        <span class="text-danger" asp-validation-for="Imie"></span>
+    </div>
+    <div class="form-group">
+        <label for="Nazwisko" asp-for="Nazwisko">Nazwisko</label>
+        <input type="text" class="form-control" id="Nazwisko" name="Nazwisko" placeholder="Nazwisko" asp-for="Nazwisko">
+        <span class="text-danger" asp-validation-for="Nazwisko"></span>
+    </div>
+    <div class="form-group">
+        <label for="Email" asp-for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" placeholder="Email" asp-for="Email">
+        <span class="text-danger" asp-validation-for="Email"></span>
+    </div>
+    <div class="form-group">
+        <label for="KonkursId">Konkurs</label>
+        <select required class="form-control" id="KonkursId" name="KonkursId" asp-for="KonkursId" asp-items="Model.Konkursy">
+            <option value="">Wybierz konkurs</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Dodaj</button>
+</form>

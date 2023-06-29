@@ -1,0 +1,68 @@
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\appsettings.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\HotelService.staticwebassets.runtime.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\HotelService.exe
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\HotelService.deps.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\HotelService.runtimeconfig.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\HotelService.dll
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\HotelService.pdb
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.csproj.AssemblyReference.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.AssemblyInfoInputs.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.AssemblyInfo.cs
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.csproj.CoreCompileInputs.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.RazorAssemblyInfo.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.RazorAssemblyInfo.cs
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\staticwebassets\msbuild.HotelService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\staticwebassets\msbuild.build.HotelService.props
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.HotelService.props
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.HotelService.props
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\scopedcss\bundle\HotelService.styles.css
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\scopedcss\projectbundle\HotelService.bundle.scp.css
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.dll
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\refint\HotelService.dll
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.pdb
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.genruntimeconfig.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\ref\HotelService.dll
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\HotelStorage.dll
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\bin\Debug\net6.0\HotelStorage.pdb
+C:\Users\Xapixowy\Visual Studio Projects\HotelService\obj\Debug\net6.0\HotelService.csproj.CopyComplete
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\appsettings.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\HotelService.staticwebassets.runtime.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\HotelService.exe
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\HotelService.deps.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\HotelService.runtimeconfig.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\HotelService.dll
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\HotelService.pdb
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\HotelStorage.dll
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\bin\Debug\net6.0\HotelStorage.pdb
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.csproj.AssemblyReference.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.AssemblyInfoInputs.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.AssemblyInfo.cs
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.csproj.CoreCompileInputs.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.RazorAssemblyInfo.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.RazorAssemblyInfo.cs
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\staticwebassets\msbuild.HotelService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\staticwebassets\msbuild.build.HotelService.props
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.HotelService.props
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.HotelService.props
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\scopedcss\bundle\HotelService.styles.css
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\scopedcss\projectbundle\HotelService.bundle.scp.css
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.csproj.CopyComplete
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.dll
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\refint\HotelService.dll
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.pdb
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\HotelService.genruntimeconfig.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelService\obj\Debug\net6.0\ref\HotelService.dll

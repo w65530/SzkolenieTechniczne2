@@ -1,0 +1,24 @@
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\bin\Debug\net6.0\HotelStorage.deps.json
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\bin\Debug\net6.0\HotelStorage.dll
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\bin\Debug\net6.0\HotelStorage.pdb
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\HotelStorage.csproj.AssemblyReference.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\HotelStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\HotelStorage.AssemblyInfoInputs.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\HotelStorage.AssemblyInfo.cs
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\HotelStorage.csproj.CoreCompileInputs.cache
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\HotelStorage.dll
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\refint\HotelStorage.dll
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\HotelStorage.pdb
+C:\Users\Xapixowy\Visual Studio Projects\HotelStorage\obj\Debug\net6.0\ref\HotelStorage.dll
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\bin\Debug\net6.0\HotelStorage.deps.json
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\bin\Debug\net6.0\HotelStorage.dll
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\bin\Debug\net6.0\HotelStorage.pdb
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\HotelStorage.csproj.AssemblyReference.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\HotelStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\HotelStorage.AssemblyInfoInputs.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\HotelStorage.AssemblyInfo.cs
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\HotelStorage.csproj.CoreCompileInputs.cache
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\HotelStorage.dll
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\refint\HotelStorage.dll
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\HotelStorage.pdb
+C:\Users\Xapixowy\Desktop\ST2\Projekt_na_4.0\HotelStorage\obj\Debug\net6.0\ref\HotelStorage.dll

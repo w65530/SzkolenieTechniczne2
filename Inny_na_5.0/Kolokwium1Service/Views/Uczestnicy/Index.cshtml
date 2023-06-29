@@ -1,0 +1,50 @@
+﻿@using Kolokwium1Storage.Dtos;
+@model IEnumerable<UczestnicyDto>
+@{
+    ViewData["Title"] = "Uczestnicy";
+}
+@if (Model.Any())
+{
+    <table class="table">
+        <thead class="tab-pane">
+            <tr>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Email</th>
+                <th>Konkurs</th>
+                <th>
+                    <p>
+                        <a class="btn btn-outline-primary" asp-action="Create">Dodaj uczestnika</a>
+                    </p>
+                </th>
+            </tr>
+        </thead>
+        <tbody class="tab-content">
+            @foreach (var uczestnik in Model)
+            {
+                <tr>
+                    <td>@uczestnik.Imie</td>
+                    <td>@uczestnik.Nazwisko</td>
+                    <td>@uczestnik.Email</td>
+                    <td>@uczestnik.KonkursNazwa</td>
+                    <td>
+                        <form method="get" asp-action="Update" asp-route-id="@uczestnik.Id">
+                            <button type="submit" class="btn btn-outline-warning">Edytuj</button>
+                        </form>
+                        <form method="post" asp-action="Delete" asp-route-id="@uczestnik.Id">
+                            <button type="submit" class="btn btn-outline-danger">Usuń</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Brak uczestników</p>
+    <p>
+        <a class="btn btn-outline-primary" asp-action="Create">Dodaj uczestnika</a>
+    </p>
+}
+

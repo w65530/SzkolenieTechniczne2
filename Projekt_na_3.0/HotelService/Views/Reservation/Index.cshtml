@@ -1,0 +1,45 @@
+﻿@using HotelStorage.Dtos;
+@model IEnumerable<ReservationDto>
+
+@{
+    ViewData["Title"] = "Rezerwacja pokoi";
+}
+
+@if (Model.Any()) {
+    <table class="table">
+        <thead class="tab-pane">
+            <tr>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Email</th>
+                <th>Nazwa pokoju</th>
+                <th>
+                    <p>
+                        <a class="btn btn-outline-primary" asp-action="Add">Dodaj rezerwację</a>
+                    </p>
+                </th>
+            </tr>
+        </thead>
+        <tbody class="tab-content">
+            @foreach (var reservation in Model) {
+                <tr>
+                    <td>@reservation.Name</td>
+                    <td>@reservation.LastName</td>
+                    <td>@reservation.Email</td>
+                    <td>@reservation.RoomName</td>
+                    <td>
+                        <form method="post" asp-action="Delete" asp-route-id="@reservation.Id">
+                            <button type="submit" class="btn btn-outline-danger">Usuń</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else {
+    <p>Brak rezerwacji</p>
+    <p>
+        <a class="btn btn-outline-primary" asp-action="Add">Dodaj rezerwację</a>
+    </p>
+}

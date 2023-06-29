@@ -1,0 +1,12 @@
+E:\Visual Studio Projects\Kolokwium1Storage\bin\Debug\net6.0\Kolokwium1Storage.deps.json
+E:\Visual Studio Projects\Kolokwium1Storage\bin\Debug\net6.0\Kolokwium1Storage.dll
+E:\Visual Studio Projects\Kolokwium1Storage\bin\Debug\net6.0\Kolokwium1Storage.pdb
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\Kolokwium1Storage.csproj.AssemblyReference.cache
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\Kolokwium1Storage.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\Kolokwium1Storage.AssemblyInfoInputs.cache
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\Kolokwium1Storage.AssemblyInfo.cs
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\Kolokwium1Storage.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\Kolokwium1Storage.dll
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\refint\Kolokwium1Storage.dll
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\Kolokwium1Storage.pdb
+E:\Visual Studio Projects\Kolokwium1Storage\obj\Debug\net6.0\ref\Kolokwium1Storage.dll
